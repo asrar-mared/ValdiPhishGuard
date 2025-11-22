@@ -1,5 +1,5 @@
 {
-  "name": "ValdiDemo",
+  "name": "@asrar-mared/valdi-demo",
   "version": "1.0.0",
   "description": "Demo project using Valdi framework",
   "main": "src/index.js",
@@ -13,5 +13,8 @@
   "dependencies": {
     "valdi_core": "latest"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

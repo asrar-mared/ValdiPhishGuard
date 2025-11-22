@@ -1,15 +1,20 @@
 {
-  "name": "valdi-demo",
+  "name": "@asrar-mared/valdi-demo",
   "version": "1.0.0",
+  "description": "Demo project using Valdi framework",
+  "main": "src/index.js",
   "scripts": {
-    "bazelisk": "node ./node_modules/@bazel/bazelisk/bazelisk.js",
-    "bazel": "node ./node_modules/@bazel/bazelisk/bazelisk.js",
-    "valdi": "node ./node_modules/cli/bin/valdi.js",
-    "dev": "yarn valdi dev_setup",
-    "build": "yarn valdi build android",
-    "install": "yarn valdi install android"
+    "start": "node src/index.js",
+    "android": "valdi install android",
+    "web": "valdi install web",
+    "build": "valdi build",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
-    "@bazel/bazelisk": "^1.26.0"
+    "valdi_core": "latest"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
