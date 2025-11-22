@@ -1,0 +1,17 @@
+{
+  "name": "ValdiDemo",
+  "version": "1.0.0",
+  "description": "Demo project using Valdi framework",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "android": "valdi install android",
+    "web": "valdi install web",
+    "build": "valdi build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "valdi_core": "latest"
+  },
+  "license": "MIT"
+}

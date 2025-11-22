@@ -1,0 +1,15 @@
+{
+  "name": "valdi-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "bazelisk": "node ./node_modules/@bazel/bazelisk/bazelisk.js",
+    "bazel": "node ./node_modules/@bazel/bazelisk/bazelisk.js",
+    "valdi": "node ./node_modules/cli/bin/valdi.js",
+    "dev": "yarn valdi dev_setup",
+    "build": "yarn valdi build android",
+    "install": "yarn valdi install android"
+  },
+  "dependencies": {
+    "@bazel/bazelisk": "^1.26.0"
+  }
+}
